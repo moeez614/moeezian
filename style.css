@@ -1,0 +1,311 @@
+/* #2196f3 */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Special Gothic", sans-serif;
+}
+
+.main-bar {
+    background-color: #0D47A1;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-bar h3 {
+    color: aliceblue;
+}
+
+.main-bar h3 a {
+    color: aliceblue;
+}
+
+/* ........................ */
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-source img {
+    width: 150px;
+}
+
+.naving ul {
+    display: flex;
+    list-style: none;
+}
+
+.naving ul li a {
+    text-decoration: none;
+    color: grey;
+    padding: 0 20px;
+}
+
+.naving ul li a:hover {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+/* main left edit style */
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.left {
+    color: black;
+    padding: 4px;
+
+}
+
+.left h1 {
+    padding: 0 3rem;
+}
+
+.left h2 {
+    padding: 4px 10px;
+    margin-left: 5vw;
+    color: gray;
+}
+
+.left p {
+    padding: 10px;
+    margin-left: 5vw;
+    font-size: 20px;
+    color: gray;
+}
+
+.vs {
+    background-color: #212121;
+    height: 400px;
+    width: 40vw;
+    margin: 0 3vw;
+    box-shadow: grey 5px 5px 5px 5px;
+}
+
+@media (max-width:768px) {
+    .vs {
+        width: 90vw;
+        margin-top: 50px;
+    }
+}
+
+.dots {
+    display: flex;
+    align-items: center;
+    background-color: #263238;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.orange {
+    background-color: orange;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.yellow {
+    background-color: yellow;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.green {
+    background-color: green;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+/* content in vs code theme */
+.content {
+    padding-top: 10px;
+}
+
+.content h5 {
+    font-family: "Cascadia Code", sans-serif;
+    color: white;
+    font-weight: 100;
+    font-size: medium;
+    padding: 3px 10px;
+}
+
+.about-us h2 {
+    text-align: center;
+}
+
+.t-about {
+    color: gray;
+    margin: 40vh 0 10vh 0;
+    font-size: 30px;
+}
+
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.details img {
+    /* filter: opacity(10px); */
+    width: 225px;
+    filter: grayscale(80%);
+    margin: 0 10vw;
+    padding-bottom: 2rem;
+}
+
+.details p {
+    color: gray;
+    width: 400px;
+    font-size: 20px;
+    padding: 2rem;
+}
+
+/* services edit start here */
+#services {
+    margin-top: 40px;
+}
+
+.ser h2 {
+    text-align: center;
+    color: gray;
+    margin: 40vh 0 10vh 0;
+    font-size: 30px;
+}
+.dot-line{
+    color: aliceblue;
+    padding-left: 4px;
+}
+.bonet h4{
+    color: aliceblue;
+    padding: 15px 5px;
+    font-family: "Cascadia Code", sans-serif; 
+    font-size: 15px;
+    font-weight: 100;
+}
+@media (max-width:768px){
+    .bonet h4{
+        font-size: 12px;
+    }
+}
+.flexha{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+.backend h2{
+    padding: 15px;
+}
+.backend p{
+    margin: 15px 0;
+    padding: 10px;
+    color: gray;
+    font-size: 20px;
+}
+.flexha-two{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.frontend{
+    padding-top: 20px;
+}
+
+.frontend h2{
+    padding: 30px;
+}
+.frontend p{
+    margin: 15px 0;
+    padding: 10px;
+    color: gray;
+    margin-left: 13px;
+    font-size: 20px;
+}
+/* ts */
+.ts{
+    background-color: white;
+    margin-top: 40px;
+}
+.shonet h4{
+    color: #0D47A1;
+}
+
+.project-title{
+    text-align: center;
+    margin: 40vh 0 10vh 0;
+    color: gray;
+}
+
+.daba{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.frame{
+    background-color: whitesmoke;
+    box-shadow: grey 5px 5px 5px 5px;
+    width: 270px;
+    margin: 2rem;
+}
+.frame img{
+    width: 90%;
+    padding: 10px;
+}
+.frame h4{
+    color: gray;
+    text-align: center;
+}
+.frame p{
+    color: gray;
+    margin: 4px;
+}
+.ab{
+    color: #0D47A1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+/* footer */
+footer{
+    padding: 15vh 0 10vh 0;
+}
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.foot1{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.foot1 img{
+    width: 150px;
+}
+.p h2,h5{
+    color: gray;
+
+}
+.foot2 ul{
+    display: flex;
+    flex-wrap: nowrap;
+    list-style: none;
+}
+.foot2 ul li a{
+    text-decoration: none;
+    color: gray;
+    padding: 0 15px;
+}
+.foot2 ul li a:hover{
+    color: #212121;
+    border-bottom: 1px solid black;
+}
